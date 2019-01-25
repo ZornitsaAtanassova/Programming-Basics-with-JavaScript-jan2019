@@ -4,7 +4,8 @@ function area(input) {
     let x2 = Number(input.shift());
     let y2 = Number(input.shift());
 
-    let length = Math.abs(x1 - x2);
+    let length = Math.abs(x1 - x2);     // Math.abs - outputs ABSolute Value (modulus|x|). It is non-negative value.
+    //let length = Math.max(x1, x2) - Math.min(x1, x2);     // Alternative way to insure for possitive value.
     let width = Math.abs(y1 - y2);
 
     let area = length * width;
@@ -16,3 +17,4 @@ function area(input) {
 }
 
 area([600.25, 500.75, 100.50, -200.5]);
+area([60, 20, 10, 50]);
