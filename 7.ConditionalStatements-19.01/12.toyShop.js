@@ -22,7 +22,6 @@ function toyShop(input) {
     if (orderToyCount >= 50) {
         discount = orderSum * 0.25;
     }
-
     let totalSum = orderSum - discount;
     totalSum = totalSum - (totalSum * 0.10);
 
@@ -33,9 +32,6 @@ function toyShop(input) {
         let result = Math.abs(excursinPrice - totalSum);
         console.log(`Not enough money! ${result.toFixed(2)} lv needed.`)
     }
-
-    // Print
-
 }
 
 toyShop(["40.8", "20", "25", "30", "50", "10"]);      //Yes! 418.20 lv left.
