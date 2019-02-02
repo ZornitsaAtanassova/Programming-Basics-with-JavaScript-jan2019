@@ -1,13 +1,27 @@
 function threeEqualNumbers(input) {
-    let num1 = Number(input.shift());
-    let num2 = Number(input.shift());
-    let num3 = Number(input.shift());
-    
-    if((num1 == num2) && (num2 == num3)){
+    let firstNumber = Number(input.shift());
+    let secondNumber = Number(input.shift());
+    let thirdNumber = Number(input.shift());
+
+    // <1> === <2> and <2> === <3>
+    if((firstNumber == secondNumber) && (secondNumber == thirdNumber)){
         console.log("yes");
     }else{
         console.log("no");
     }
+    
+    // Alterntive way
+    // <1> === <2> and <1> === <3>
+    /* let areNumberEqual = 'no';
+    if (firstNumber !== secondNumber) {
+        areNumberEqual = 'no';
+    } else if (firstNumber !== thirdNumber) {
+        areNumberEqual = 'no';
+    } else {
+        areNumberEqual = 'yes';
+    }
+
+    console.log(areNumberEqual); */
 }
 
 threeEqualNumbers(["1", "1", "1"]);     //yes
