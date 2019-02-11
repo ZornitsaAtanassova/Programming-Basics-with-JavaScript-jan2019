@@ -15,9 +15,30 @@ function metricConverter(input) {
         value *= 1000;
     } else if (outputMetric === "cm") {
         value *= 100;
-    }
+    } 
 
     console.log(value.toFixed(3));
+
+    // Alternative way - NOT WORKING???
+    /* let valueMM = 0;
+    if (inputMetric === 'mm') {
+        valueMM = value;
+    } else if (inputMetric === 'cm') {
+        valueMM = value * 10;
+    } else {
+        valueMM = value * 1000;
+    }
+    
+    let resultValue = 0;
+    if (outputMetric === 'mm') {
+        resultValue = value;
+    } else if (outputMetric === 'cm') {
+        resultValue = valueMM / 10;
+    } else {
+        resultValue = valueMM / 1000;
+    }
+
+    console.log(resultValue.toFixed(3)); */
 }
 
 metricConverter(["12", "mm", "m"]);  //0.012
