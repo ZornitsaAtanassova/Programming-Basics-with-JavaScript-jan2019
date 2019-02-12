@@ -1,6 +1,8 @@
 function numberSequence(input) {
     let maxNumber = Number.MIN_SAFE_INTEGER;
     let minNumber = Number.MAX_SAFE_INTEGER;
+    //console.log(maxNumber);
+    //console.log(minNumber);
     let command = input.shift();
 
     while (command != "END") {
