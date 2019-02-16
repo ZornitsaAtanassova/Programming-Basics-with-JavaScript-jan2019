@@ -118,7 +118,7 @@ demo7();   // */
 demo8();   //116 molivche */
 
 
-function demo9() {
+/* function demo9() {
     let firstLetterAsNumber = "а".charCodeAt(0);
     let lastLetterAsNumber = "я".charCodeAt(0);
     
@@ -127,4 +127,48 @@ function demo9() {
     }
 }
 
-demo9();   // a ...z
+demo9();   // a ...z */
+
+
+
+function oddEvenSum(input) {
+    let arrayN = input.length;
+    //console.log(arrayN);
+    /* let sumEven = input[0]+input[2]+input[4]+input[6]+input[8];//0;
+    let sumOdd = input[1]+input[3]+input[5]+input[7]+input[9];
+    console.log(sumEven + " / " + sumOdd); */
+    //let arrayN = input[0];
+    let sumEven = 0;
+    let sumOdd = 0;
+
+    for (let i = 1; i < arrayN; i++) {
+        //console.log(i);
+        if (i % 2 == 0) {
+            sumEven += input[i];
+            //console.log(sumEven);
+        } else {
+            sumOdd += input[i];
+        }
+    }
+    
+    // Alternative way
+    /* let counter = 0; //counter
+    while (counter < arrayN) {
+        if (counter % 2 == 0) {
+            sumEven += input[counter];
+            //console.log(sumEven);
+        } else {
+            sumOdd += input[counter];
+        }
+        counter++;
+    } */
+
+    if (sumEven == sumOdd) {
+        console.log(`Yes Sum = ${sumEven}`);
+    } else {
+        let diff = Math.abs(sumEven - sumOdd);
+        console.log(`No Diff = ${diff}`);
+    }
+}
+
+oddEvenSum([10, 11, 25, 35]);
