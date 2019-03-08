@@ -1,15 +1,15 @@
 function fishingBoat(input) {
     //Knowns: -The price of renting the ship on seasons: "Spring"-3000lv, "Summer"/"Autumn"-4200lv, "Winter"-2600lv.
-    //knowns: -Discount for number of fishermen: Up to 6=10%, 7-11=15%, Up 12=25%.
-    //knowns: -Extra Discount for Even number of fishermen (without Autumn): Even=5%.
+    //Knowns: -Discount for number of fishermen: Up to 6=10%, 7-11=15%, Up 12=25%.
+    //Knowns: -Extra Discount for Even number of fishermen (without Autumn): Even=5%.
     //Wanted: -To calculate whether fishermen will raise enough money for fishing with a ship.
 
-    //Read
+    //Read inputs
     let groupBudget = Number(input.shift());     //[1-8000]
-    let season = input.shift();
+    let season = input.shift();     //"Spring", "Summer", "Autumn", "Winter"
     let countFishermen = Number(input.shift());     //[4-18]
 
-    //Manipulate
+    //Global variables
     let currentSeasonPrice = 0;
     let discount = 0;
     let extraDiscount = 0;
