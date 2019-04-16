@@ -1,7 +1,7 @@
 function oldLibrary(input) {
     //Read input
      let favoriteBook = input.shift();
-     let numberOfBooks = Number(input.shift());
+     let countOfBooks = Number(input.shift());
 
     //Auxilary variables
     let counter = 0;
@@ -9,7 +9,7 @@ function oldLibrary(input) {
 
     //Manipulate
     let nextBookName = input.shift();
-    while (counter < numberOfBooks) {
+    while (counter < countOfBooks) {
         if (nextBookName === favoriteBook) {
             bookIsFound = true;
             break;
@@ -19,7 +19,7 @@ function oldLibrary(input) {
     }
     if (bookIsFound == false) {
         console.log(`The book you search is not here!`);
-        console.log(`You checked ${numberOfBooks} books.`);
+        console.log(`You checked ${countOfBooks} books.`);
     } else {
         console.log(`You checked ${counter} books and found it.`);
     }
