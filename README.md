@@ -1,4 +1,4 @@
-# <a href="https://softuni.bg/trainings/2343/js-fundamentals-may-2019" rel="JavaScript Fundamentals"><p align="center"> Programming Basics with JavaScript jan 2019<p></a>
+# <a href="https://softuni.bg/trainings/2212/programming-basics-with-javascript-january-2019" rel="JavaScript Fundamentals"><p align="center"> Programming Basics with JavaScript jan 2019<p></a>
 
 _This repository contains tasks resolved with JavaScript. The Programming Basics with JS (jan 2019 - feb 2019) course is part of the Entry Module at [Software University](https://about.softuni.bg/), Bulgaria._
 
