@@ -4,7 +4,7 @@ _This repository contains tasks resolved with JavaScript. The Programming Basics
 
 ---
 
-## Summary:
+## Topics:
 1. Useful Links
 1. Wellcome to SoftUni
 1. Opening of the course
@@ -24,5 +24,20 @@ _This repository contains tasks resolved with JavaScript. The Programming Basics
 1. Exam Preparation
 1. [Trail Exam](https://github.com/ZornitsaAtanassova/Programming-Basics-with-JavaScript-jan2019/tree/master/18.TrailExam-24.02)
 1. [Final Entrance Exam](https://github.com/ZornitsaAtanassova/Programming-Basics-with-JavaScript-jan2019/tree/master/19.FinalEntranceExam-09-10.03.2019)
+
+---
+
+## Summary:
+
+##### Duration of course: _05/01/2019 - 11/03/2019_
+
+##### Certificate / Honorable Mention: _[Еxcellent(6.00)](https://github.com/ZornitsaAtanassova/Programming-Basics-with-JavaScript-jan2019/blob/master/19.FinalEntranceExam-09-10.03.2019/HonorableMention-ProgrammingBasic.pdf)_
+
+##### Credits: _3_
+
+##### Lecturers:
+* [Todor Stoyanov](https://softuni.bg/users/profile/show/todor_ads) - Competencies: Java, JavaScript. (_Junior Java Developer at Biotrade Bulgaria_)
+
+* [Vasil Indzhev](https://softuni.bg/users/profile/show/v.indzhev) - Competencies: C#, PHP, Web & Cloud, IoT, System and Network Administrator, Microsoft Certified Senior Business Application Consultant. (_.NET Developer at R&D Solution_)
 
 ---
